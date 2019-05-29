@@ -1,6 +1,3 @@
-FROM scratch
-ADD passwd.minimal /etc/passwd
+FROM rhel7-minimal:7.6
 ADD hello /
-USER nobody
-EXPOSE 8080
 CMD ["/hello"]
