@@ -4,7 +4,6 @@ import (
 	"io"
 	"net/http"
 	"os"
-        "fmt"
 )
 
 var buff []byte
